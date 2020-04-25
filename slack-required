@@ -1,0 +1,3 @@
+glibc-solibs >= 2.23
+xorg-server >= 1.18
+xrdp >= 0.9
