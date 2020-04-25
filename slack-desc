@@ -1,0 +1,15 @@
+xorgxrdp: xorgxrdp (Xorg drivers for xrdp)
+xorgxrdp:
+xorgxrdp: xorgxrdp is a collection of modules to be used with a pre-existing
+xorgxrdp: X.Org install to make the X server act like X11rdp. Unlike X11rdp,
+xorgxrdp: you don't have to recompile the whole X Window System. Instead,
+xorgxrdp: additional modules are installed to a location where the existing
+xorgxrdp: Xorg installation would pick them.
+xorgxrdp: xorgxrdp supports screen resizing. When an RDP client connects,
+xorgxrdp: the screen is resized to the size supplied by the client.
+xorgxrdp: xorgxrdp uses 24 bits per pixel internally. xrdp translates
+xorgxrdp: the color depth for the RDP client as requested. RDP clients can
+xorgxrdp: disconnect and reconnect to the same session even if they use
+xorgxrdp: different color depths.
+xorgxrdp:
+xorgxrdp: Packaged by Georgi D. Sotirov <gdsotirov@gmail.com>
